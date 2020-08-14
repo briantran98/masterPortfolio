@@ -2,112 +2,62 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Brian Tran",
+  logo_name: "BrianTran",
+  nickname: "btran210",
   subTitle:
     "A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+    "https://drive.google.com/file/d/1FJAwm7UUrBlZlluEVHaexwsMxe1kGisN/view?usp=sharing",
+  portfolio_repository: "https://github.com/briantran98/masterPortfolio",
 };
 
 const socialMediaLinks = [
-	/* Your Social Media Link */
-	// github: "https://github.com/ashutosh1919",
-	// linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-	// gmail: "ashutoshhathidara98@gmail.com",
-	// gitlab: "https://gitlab.com/ashutoshhathidara98",
-	// facebook: "https://www.facebook.com/laymanbrother.19/",
-	// twitter: "https://twitter.com/ashutosh_1919",
-	// instagram: "https://www.instagram.com/layman_brother/"
-  
-	{
-		name: "Github",
-		link: "https://github.com/ashutosh1919",
-		fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-		backgroundColor: '#181717' // Reference https://simpleicons.org/?q=github
-	},
-	{
-		name: "LinkedIn",
-		link: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-		fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-		backgroundColor: '#0077B5' // Reference https://simpleicons.org/?q=linkedin
-	},
-	{
-		name: "Gmail",
-		link: "mailto:ashutoshhathidara98@gmail.com",
-		fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-		backgroundColor: '#D14836' // Reference https://simpleicons.org/?q=gmail
-	},
-	{
-		name: "Twitter",
-		link: "https://twitter.com/ashutosh_1919",
-		fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-		backgroundColor: '#1DA1F2' // Reference https://simpleicons.org/?q=twitter
-	},
-	{
-		name: "Facebook",
-		link: "https://www.facebook.com/laymanbrother.19/",
-		fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-		backgroundColor: '#1877F2' // Reference https://simpleicons.org/?q=facebook
-	},
-	{
-		name: "Instagram",
-		link: "https://www.instagram.com/layman_brother/",
-		fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-		backgroundColor: '#E4405F' // Reference https://simpleicons.org/?q=instagram
-	},
+  {
+    name: "Github",
+    link: "https://github.com/briantran98",
+    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+  },
+  {
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/brian-tran-649968a7/",
+    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
+  },
+  {
+    name: "Gmail",
+    link: "mailto:98brian.tran@gmail.com",
+    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+  },
+  // {
+  // 	name: "Twitter",
+  // 	link: ,
+  // 	fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
+  // 	backgroundColor: '#1DA1F2' // Reference https://simpleicons.org/?q=twitter
+  // },
+  // {
+  // 	name: "Facebook",
+  // 	link: ,
+  // 	fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+  // 	backgroundColor: '#1877F2' // Reference https://simpleicons.org/?q=facebook
+  // },
+  // {
+  // 	name: "Instagram",
+  // 	link: ,
+  // 	fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+  // 	backgroundColor: '#E4405F' // Reference https://simpleicons.org/?q=instagram
+  // },
 ];
 
 const skills = {
   data: [
-    {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-      ],
-    },
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
@@ -165,27 +115,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:npm",
           style: {
             color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
           },
         },
       ],
